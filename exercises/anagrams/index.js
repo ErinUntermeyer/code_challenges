@@ -9,15 +9,15 @@
 //   anagrams('Hi there', 'Bye there') --> False
 
 function anagrams(stringA, stringB) {
-	stringA = stringA.replace(/[^\w]|_/g, "").toLowerCase().split('').sort()
-	stringB = stringB.replace(/[^\w]|_/g, "").toLowerCase().split('').sort()
+	arrayA = stringA.replace(/[^\w]|_/g, "").toLowerCase().split('').sort()
+	arrayB = stringB.replace(/[^\w]|_/g, "").toLowerCase().split('').sort()
 
-	objA = stringA.reduce((a, letter) => {
+	objA = arrayA.reduce((a, letter) => {
 		!a[letter] ? a[letter] = 1 : a[letter]++
 		return a
 	}, {})
 
-	objB = stringB.reduce((b, letter) => {
+	objB = arrayB.reduce((b, letter) => {
 		!b[letter] ? b[letter] = 1 : b[letter]++
 		return b
 	}, {})
@@ -28,8 +28,9 @@ function anagrams(stringA, stringB) {
 module.exports = anagrams;
 
 /*
-need to lower case all letters for both strings
-need to remove space and punctuation for both strings
-iterate over each string, make object with letter as key and count as value
+lower case all letters for both strings
+remove space and punctuation for both strings
+make the strings arrays and sort them
+iterate over each array, make object with letter as key and count as value
 if the objects are equal, return true, else return false
 */
