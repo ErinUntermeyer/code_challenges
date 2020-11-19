@@ -1,4 +1,6 @@
 // --- Directions
+// Solve with an iterative and recursive solution. 
+// Tests are made to show linear runtime and / or exponential runtime.
 // Print out the n-th entry in the fibonacci series.
 // The fibonacci series is an ordering of numbers where
 // each number is the sum of the preceeding two.
