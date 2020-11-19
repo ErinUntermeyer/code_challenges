@@ -1,0 +1,22 @@
+{
+  "name": "code_challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"scripts": {
+		"test": "jest --config --watch"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErinUntermeyer/code_challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErinUntermeyer/code_challenges/issues"
+  },
+  "homepage": "https://github.com/ErinUntermeyer/code_challenges#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
