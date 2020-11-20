@@ -8,25 +8,19 @@
 
 //Solve it with any thing you know
 
-
 function reverse(str) {
-  
+	return str.split('').reverse().join('')
 }
 
 //Solve it again but cant use Array.reverse
 
-function reverse2(str) {
+// function reverse(str) {
+// 	let reverse = []
+// 	str = str.split('')
+// 	str.forEach(letter => reverse.unshift(letter))
+// 	reverse = reverse.join('')
+// 	return reverse
+// }
 
-}
-
-//Solve it using an array iterator method
-
-function reverse3(str) {
-
-}
-
-
-
-module.exports = reverse;
-
+module.exports = reverse
 

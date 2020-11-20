@@ -1,5 +1,5 @@
 # Code Challenges
-1. Reverse String (reversestring)
+1. Reverse String (reversestring) ✅
 2. Palindrome (palindrome)
 3. Integer Reversal (reverseint)
 4. MaxChars (maxChar)
