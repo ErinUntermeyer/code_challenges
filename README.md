@@ -1,6 +1,6 @@
 # Code Challenges
 1. Reverse String (reversestring) ✅
-2. Palindrome (palindrome)
+2. Palindrome (palindrome) ✅
 3. Integer Reversal (reverseint)
 4. MaxChars (maxChar)
 5. FizzBuzz (fizzBuzz)
