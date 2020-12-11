@@ -6,7 +6,7 @@
 5. FizzBuzz (fizzBuzz) ✅
 6. Array Chunking (chunk) ✅
 7. Anagrams (anagrams) ✅
-8. Sentence Capitalization (capitalize)
+8. Sentence Capitalization (capitalize) ✅
 9. Printing Steps (steps)
 10. Two Sided Steps - Pyramid (pyramid)
 11. Find the Vowels (vowels)
