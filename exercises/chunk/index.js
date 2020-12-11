@@ -8,6 +8,22 @@
 // chunk([1, 2, 3, 4, 5], 4) --> [[ 1, 2, 3, 4], [5]]
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
-function chunk(array, size) {}
+function chunk(array, size) {
+	const chunkedArr = []
+	do {
+		chunkedArr.push(array.splice(0, size))
+	} while (array.length > size)
+	chunkedArr.push(array)
+	return chunkedArr
+}
 
 module.exports = chunk;
+
+/*
+use slice
+create chunked array var
+use a do while to continue splicing until array.length < size
+splice using start at 0 and delete count as size
+push the remaining array in
+return chunked array
+*/

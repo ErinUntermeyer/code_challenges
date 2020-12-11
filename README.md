@@ -4,7 +4,7 @@
 3. Integer Reversal (reverseint) ✅
 4. MaxChars (maxChar) ✅
 5. FizzBuzz (fizzBuzz) ✅
-6. Array Chunking (chunk)
+6. Array Chunking (chunk) ✅
 7. Anagrams (anagrams) ✅
 8. Sentence Capitalization (capitalize)
 9. Printing Steps (steps)
