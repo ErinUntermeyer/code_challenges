@@ -8,11 +8,7 @@
 function maxChar(str) {
 	const charCount = {}
 	str.split('').forEach(letter => {
-		if (!charCount[letter]) {
-			charCount[letter] = 1
-		} else {
-			charCount[letter]++
-		}
+		!charCount[letter] ? charCount[letter] = 1 : charCount[letter]++
 	})
 	
 	const commonChar = Object.keys(charCount).reduce((mostCommon, char) => {
